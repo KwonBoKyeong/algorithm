@@ -23,7 +23,7 @@ public class JUNGOL1828 {
 			arr[i][1] = Integer.parseInt(st.nextToken());
 		}
 		
-		//y 기준으로 오름차순 정렬 , y가 같다면 x기준 내림차순 정렬 ! 
+		//y 기준으로 오름차순 정렬! 
 		Arrays.sort(arr, new Comparator<int[]> (){
 			@Override
 			public int compare(int[] c1, int[] c2) {
